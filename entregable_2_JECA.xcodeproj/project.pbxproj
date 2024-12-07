@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		76685FEC2D03D09B00C143E2 /* fruta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76685FEB2D03D09B00C143E2 /* fruta.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		76A1ECE92D0392FB009EBB82 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,16 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		76685FEB2D03D09B00C143E2 /* fruta.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fruta.cpp; sourceTree = "<group>"; };
 		76A1ECEB2D0392FB009EBB82 /* entregable_2_JECA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = entregable_2_JECA; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		76A1ECED2D0392FB009EBB82 /* entregable_2_JECA */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = entregable_2_JECA;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		76A1ECE82D0392FB009EBB82 /* Frameworks */ = {
@@ -44,7 +41,7 @@
 		76A1ECE22D0392FB009EBB82 = {
 			isa = PBXGroup;
 			children = (
-				76A1ECED2D0392FB009EBB82 /* entregable_2_JECA */,
+				76685FEB2D03D09B00C143E2 /* fruta.cpp */,
 				76A1ECEC2D0392FB009EBB82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,9 +68,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				76A1ECED2D0392FB009EBB82 /* entregable_2_JECA */,
 			);
 			name = entregable_2_JECA;
 			packageProductDependencies = (
@@ -120,6 +114,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76685FEC2D03D09B00C143E2 /* fruta.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
